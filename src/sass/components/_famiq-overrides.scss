@@ -1,0 +1,65 @@
+// Ajustes de marca para famiqsrl sobre el theme opale (Redmine 7).
+// Nota: pensados para no depender de rebuild inmediato (ver stylesheets/application.css,
+// que ya trae estos mismos ajustes compilados a mano) — si tocan estas reglas,
+// recompilar con `npm run build` y volver a copiar el resultado ahí.
+
+#header {
+  background-color: #fff !important;
+  color: #3e425a !important;
+  border-bottom: solid 1px #ddd;
+}
+
+#header a {
+  color: inherit !important;
+}
+
+nav.top-menu,
+#top-menu {
+  background: #80aaa6 !important;
+  color: #fff;
+
+  // Sin esto, #top-menu queda position:static y el .profile-menu de abajo
+  // (position:absolute) termina anclado al #wrapper entero en vez de al
+  // propio top-menu: el botón de cuenta/logout quedaba tapado por el
+  // #header (que pinta encima al ser hermano posterior en el DOM).
+  position: relative;
+}
+
+.top-menu__links a,
+.top-menu__links a:link,
+.top-menu__links a:visited {
+  color: #fff !important;
+}
+
+.top-menu__links a:hover {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.top-menu__links svg.icon-svg {
+  stroke: #fff;
+}
+
+// .profile-menu (avatar + logout) es position:absolute sin left/right propio
+// de opale; ahora que #top-menu es su ancestro posicionado, lo anclamos ahí.
+#top-menu .profile-menu {
+  right: 20px;
+}
+
+// El servicio de avatares interno (avatar_server_url = colaboradores.famiq.com.ar)
+// puede devolver errores (415) para algunas fotos; sin tamaño/fondo propio, un
+// <img> roto queda invisible y con él desaparece el único disparador del menú
+// de cuenta/logout. Reservamos tamaño y fondo para que el trigger siga siendo
+// visible/clickeable aunque el avatar no cargue.
+#account .dropdown-trigger {
+  display: inline-flex !important;
+  min-width: 24px;
+  min-height: 24px;
+}
+
+#account .dropdown-trigger img {
+  min-width: 22px;
+  min-height: 22px;
+  background-color: rgba(255, 255, 255, .35);
+  border-radius: 4px;
+}
