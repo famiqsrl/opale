@@ -73,3 +73,8 @@ nav.top-menu,
 #projects-index .wiki.description {
   display: none;
 }
+
+/* Nombre de proyecto en la vista Tablero mas chico (1.5em -> 1em). */
+#projects-index ul.projects a.project {
+  font-size: 1em;
+}
