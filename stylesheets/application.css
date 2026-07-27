@@ -65,3 +65,11 @@ nav.top-menu,
   background-color: rgba(255, 255, 255, .35);
   border-radius: 4px;
 }
+
+/* Redmine (no el theme) muestra la descripcion del proyecto siempre en modo
+   "Tablero" (ver ProjectsHelper#render_project_hierarchy) sin dar ninguna
+   opcion de configuracion para eso -a diferencia del modo "Lista", que si
+   tiene la casilla "Descripcion". Se oculta puntualmente ese bloque. */
+#projects-index .wiki.description {
+  display: none;
+}
