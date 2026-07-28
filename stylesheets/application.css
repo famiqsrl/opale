@@ -78,3 +78,387 @@ nav.top-menu,
 #projects-index ul.projects a.project {
   font-size: 1em;
 }
+
+/* Color del # de ticket (td.id > a) por tracker, copiado tal cual del CSS
+   compilado de famiq (el theme grande) -no famiq2-, que ya tenia estos
+   colores definidos por tracker con nombres reales de este mismo Redmine.
+   El tracker 19 "Nuevo puesto" no existe en famiq, se deja con el color
+   default de opale. */
+
+/* Error */
+tr.tracker-1 .id>a,
+tr.tracker-1 .issue_id>a,
+a.tracker-1.issue,
+a.tracker-1,
+.relations>span>a.tracker-1,
+.parent>a.tracker-1 {
+  background-color: #C51E17 !important;
+  color: #fff !important;
+}
+
+tr.tracker-1 .id>a:hover,
+tr.tracker-1 .issue_id>a:hover,
+a.tracker-1.issue:hover,
+a.tracker-1:hover,
+.relations>span>a.tracker-1:hover,
+.parent>a.tracker-1:hover {
+  background-color: #9B1A14 !important;
+  color: #fff !important;
+}
+
+a.tracker-1.closed {
+  color: #d66a66 !important;
+}
+
+/* Tarea de soporte */
+tr.tracker-2 .id>a,
+tr.tracker-2 .issue_id>a,
+a.tracker-2.issue,
+a.tracker-2,
+.relations>span>a.tracker-2,
+.parent>a.tracker-2 {
+  background-color: #e07a09 !important;
+  color: #fff !important;
+}
+
+tr.tracker-2 .id>a:hover,
+tr.tracker-2 .issue_id>a:hover,
+a.tracker-2.issue:hover,
+a.tracker-2:hover,
+.relations>span>a.tracker-2:hover,
+.parent>a.tracker-2:hover {
+  background-color: #c86a08 !important;
+  color: #fff !important;
+}
+
+a.tracker-2.closed {
+  color: #e4b18d !important;
+}
+
+/* Maquinaria */
+tr.tracker-6 .id>a,
+tr.tracker-6 .issue_id>a,
+a.tracker-6.issue,
+a.tracker-6,
+.relations>span>a.tracker-6,
+.parent>a.tracker-6 {
+  background-color: #A86DFF !important;
+  color: #fff !important;
+}
+
+tr.tracker-6 .id>a:hover,
+tr.tracker-6 .issue_id>a:hover,
+a.tracker-6.issue:hover,
+a.tracker-6:hover,
+.relations>span>a.tracker-6:hover,
+.parent>a.tracker-6:hover {
+  background-color: #8C5BCE !important;
+  color: #fff !important;
+}
+
+a.tracker-6.closed {
+  color: #D0B9FF !important;
+}
+
+/* Historia */
+tr.tracker-7 .id>a,
+tr.tracker-7 .issue_id>a,
+a.tracker-7.issue,
+a.tracker-7,
+.relations>span>a.tracker-7,
+.parent>a.tracker-7 {
+  background-color: #483484 !important;
+  color: #fff !important;
+}
+
+tr.tracker-7 .id>a:hover,
+tr.tracker-7 .issue_id>a:hover,
+a.tracker-7.issue:hover,
+a.tracker-7:hover,
+.relations>span>a.tracker-7:hover,
+.parent>a.tracker-7:hover {
+  background-color: #3c2d6e !important;
+  color: #fff !important;
+}
+
+a.tracker-7.closed {
+  color: #a89fcc !important;
+}
+
+/* Funcionalidad */
+tr.tracker-8 .id>a,
+tr.tracker-8 .issue_id>a,
+a.tracker-8.issue,
+a.tracker-8,
+.relations>span>a.tracker-8,
+.parent>a.tracker-8 {
+  background-color: #009b98 !important;
+  color: #fff !important;
+}
+
+tr.tracker-8 .id>a:hover,
+tr.tracker-8 .issue_id>a:hover,
+a.tracker-8.issue:hover,
+a.tracker-8:hover,
+.relations>span>a.tracker-8:hover,
+.parent>a.tracker-8:hover {
+  background-color: #008c86 !important;
+  color: #fff !important;
+}
+
+a.tracker-8.closed {
+  color: #72c0bf !important;
+}
+
+/* Ayuda */
+tr.tracker-10 .id>a,
+tr.tracker-10 .issue_id>a,
+a.tracker-10.issue,
+a.tracker-10,
+.relations>span>a.tracker-10,
+.parent>a.tracker-10 {
+  background-color: #006D69 !important;
+  color: #fff !important;
+}
+
+tr.tracker-10 .id>a:hover,
+tr.tracker-10 .issue_id>a:hover,
+a.tracker-10.issue:hover,
+a.tracker-10:hover,
+.relations>span>a.tracker-10:hover,
+.parent>a.tracker-10:hover {
+  background-color: #005859 !important;
+  color: #fff !important;
+}
+
+a.tracker-10.closed {
+  color: #62A1A0 !important;
+}
+
+/* Gestión */
+tr.tracker-11 .id>a,
+tr.tracker-11 .issue_id>a,
+a.tracker-11.issue,
+a.tracker-11,
+.relations>span>a.tracker-11,
+.parent>a.tracker-11 {
+  background-color: #6ac461 !important;
+  color: #fff !important;
+}
+
+tr.tracker-11 .id>a:hover,
+tr.tracker-11 .issue_id>a:hover,
+a.tracker-11.issue:hover,
+a.tracker-11:hover,
+.relations>span>a.tracker-11:hover,
+.parent>a.tracker-11:hover {
+  background-color: #5aa14e !important;
+  color: #fff !important;
+}
+
+a.tracker-11.closed {
+  color: #A1D69A !important;
+}
+
+/* Acceso */
+tr.tracker-12 .id>a,
+tr.tracker-12 .issue_id>a,
+a.tracker-12.issue,
+a.tracker-12,
+.relations>span>a.tracker-12,
+.parent>a.tracker-12 {
+  background-color: #009B00 !important;
+  color: #fff !important;
+}
+
+tr.tracker-12 .id>a:hover,
+tr.tracker-12 .issue_id>a:hover,
+a.tracker-12.issue:hover,
+a.tracker-12:hover,
+.relations>span>a.tracker-12:hover,
+.parent>a.tracker-12:hover {
+  background-color: #008C00 !important;
+  color: #fff !important;
+}
+
+a.tracker-12.closed {
+  color: #70b56f !important;
+}
+
+/* Tarea */
+tr.tracker-13 .id>a,
+tr.tracker-13 .issue_id>a,
+a.tracker-13.issue,
+a.tracker-13,
+.relations>span>a.tracker-13,
+.parent>a.tracker-13 {
+  background-color: #979DB3 !important;
+  color: #fff !important;
+}
+
+tr.tracker-13 .id>a:hover,
+tr.tracker-13 .issue_id>a:hover,
+a.tracker-13.issue:hover,
+a.tracker-13:hover,
+.relations>span>a.tracker-13:hover,
+.parent>a.tracker-13:hover {
+  background-color: #7f8498 !important;
+  color: #fff !important;
+}
+
+a.tracker-13.closed {
+  color: #b0b4c3 !important;
+}
+
+/* Épica */
+tr.tracker-14 .id>a,
+tr.tracker-14 .issue_id>a,
+a.tracker-14.issue,
+a.tracker-14,
+.relations>span>a.tracker-14,
+.parent>a.tracker-14 {
+  background-color: #4D626A !important;
+  color: #fff !important;
+}
+
+tr.tracker-14 .id>a:hover,
+tr.tracker-14 .issue_id>a:hover,
+a.tracker-14.issue:hover,
+a.tracker-14:hover,
+.relations>span>a.tracker-14:hover,
+.parent>a.tracker-14:hover {
+  background-color: #3e4f56 !important;
+  color: #fff !important;
+}
+
+a.tracker-14.closed {
+  color: #6E7D85 !important;
+}
+
+/* Solicitud */
+tr.tracker-15 .id>a,
+tr.tracker-15 .issue_id>a,
+a.tracker-15.issue,
+a.tracker-15,
+.relations>span>a.tracker-15,
+.parent>a.tracker-15 {
+  background-color: #b3b23f !important;
+  color: #fff !important;
+}
+
+tr.tracker-15 .id>a:hover,
+tr.tracker-15 .issue_id>a:hover,
+a.tracker-15.issue:hover,
+a.tracker-15:hover,
+.relations>span>a.tracker-15:hover,
+.parent>a.tracker-15:hover {
+  background-color: #a0a035 !important;
+  color: #fff !important;
+}
+
+a.tracker-15.closed {
+  color: #d3d184 !important;
+}
+
+/* Parte de trabajo */
+tr.tracker-16 .id>a,
+tr.tracker-16 .issue_id>a,
+a.tracker-16.issue,
+a.tracker-16,
+.relations>span>a.tracker-16,
+.parent>a.tracker-16 {
+  background-color: #a865df !important;
+  color: #fff !important;
+}
+
+tr.tracker-16 .id>a:hover,
+tr.tracker-16 .issue_id>a:hover,
+a.tracker-16.issue:hover,
+a.tracker-16:hover,
+.relations>span>a.tracker-16:hover,
+.parent>a.tracker-16:hover {
+  background-color: #9d5fd8 !important;
+  color: #fff !important;
+}
+
+a.tracker-16.closed {
+  color: #c2a0e3 !important;
+}
+
+/* Permiso */
+tr.tracker-17 .id>a,
+tr.tracker-17 .issue_id>a,
+a.tracker-17.issue,
+a.tracker-17,
+.relations>span>a.tracker-17,
+.parent>a.tracker-17 {
+  background-color: #C8D112 !important;
+  color: #fff !important;
+}
+
+tr.tracker-17 .id>a:hover,
+tr.tracker-17 .issue_id>a:hover,
+a.tracker-17.issue:hover,
+a.tracker-17:hover,
+.relations>span>a.tracker-17:hover,
+.parent>a.tracker-17:hover {
+  background-color: #a2a712 !important;
+  color: #fff !important;
+}
+
+a.tracker-17.closed {
+  color: #B5B967 !important;
+}
+
+/* Requerimiento */
+tr.tracker-18 .id>a,
+tr.tracker-18 .issue_id>a,
+a.tracker-18.issue,
+a.tracker-18,
+.relations>span>a.tracker-18,
+.parent>a.tracker-18 {
+  background-color: #8583e6 !important;
+  color: #fff !important;
+}
+
+tr.tracker-18 .id>a:hover,
+tr.tracker-18 .issue_id>a:hover,
+a.tracker-18.issue:hover,
+a.tracker-18:hover,
+.relations>span>a.tracker-18:hover,
+.parent>a.tracker-18:hover {
+  background-color: #6f6cd9 !important;
+  color: #fff !important;
+}
+
+a.tracker-18.closed {
+  color: #b3aee0 !important;
+}
+
+/* Soporte S4 (tracker-20): copiado de famiq, incluye la forma con clip-path
+   que lo distingue del resto de los badges. */
+tr.tracker-20 .id>a,
+tr.tracker-20 .issue_id>a,
+a.tracker-20.issue,
+a.tracker-20,
+.relations>span>a.tracker-20,
+.parent>a.tracker-20 {
+  background-color: #0070C0 !important;
+  color: #fff !important;
+  clip-path: polygon(0 0, 100% 0, 100% 0%, calc(100% - 7px) 100%, 0 100%) !important;
+  border-radius: 2px !important;
+}
+
+tr.tracker-20 .id>a:hover,
+tr.tracker-20 .issue_id>a:hover,
+a.tracker-20.issue:hover,
+a.tracker-20:hover,
+.relations>span>a.tracker-20:hover,
+.parent>a.tracker-20:hover {
+  background-color: #005a9e !important;
+  color: #fff !important;
+}
+
+a.tracker-20.closed {
+  color: #a0c4e8 !important;
+}
